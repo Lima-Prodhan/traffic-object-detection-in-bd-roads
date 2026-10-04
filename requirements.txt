@@ -1,0 +1,14 @@
+# Starter dependencies observed across the notebooks.
+# Versions are intentionally not pinned.
+ultralytics
+torch
+torchvision
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+Pillow
+PyYAML
+tqdm
+scikit-learn

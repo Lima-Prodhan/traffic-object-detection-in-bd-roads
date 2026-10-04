@@ -1,0 +1,20 @@
+# Datasets and generated training artifacts
+data/
+datasets/
+runs/
+outputs/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.zip
+*.cache
+
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.venv/
+venv/
