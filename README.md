@@ -40,6 +40,7 @@ The first stage required training three separate object detectors:
 - YOLOv10
 - YOLOv11
 - YOLOv12
+
 Then the experiments compare the models using standard object-detection metrics.
 
 ---
@@ -101,11 +102,17 @@ The original experiments produced multiple sets of metrics across the supervised
 
 The notebooks were developed around a **Kaggle GPU environment**.
 Several notebooks use Kaggle-specific paths. Therefore, they are not guaranteed to run unchanged on a local machine.
+
 YOLOv10: https://www.kaggle.com/code/rejaulkarimsohag/final-yolov10-cse475 
+
 YOLOv11: https://www.kaggle.com/code/mdesrafilrahman/cse475-assignment01-group-no-i-yolo11 
+
 YOLOv12: https://www.kaggle.com/code/limaprodhan/final-traffic-yolov12-cse475 
+
 Pseudo-labeling: https://www.kaggle.com/code/esrafilrahman/cse475-pseudo-labeling-in-yolov12 
+
 SimCLR + YOLOv12s: https://www.kaggle.com/code/mdesrafilrahman/cse475-simclr-with-yolo12 
+
 DINO-style + YOLOv12s: https://www.kaggle.com/code/limaprodhan/ssl-dino-with-yolov12s 
 
 ---
@@ -139,6 +146,7 @@ Through this project, we gained practical experience with:
 1. Lima Prodhan 
 2. Md. Esrafil Rahman
 3. Rejaul Karim Sohag
+
 **East West University | CSE475 Machine Learning**
 
 ---
