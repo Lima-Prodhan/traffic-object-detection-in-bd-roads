@@ -25,9 +25,11 @@ The project uses the **TFP-BD / Bangladeshi Traffic Flow Dataset** covering traf
 - Shapla Chattar
 - Bashabo
 - Abul Hotel
+
 The Dataset consists of **23,678 images** images extracted from videos of these locations and nine traffic-related classes:
 `Rickshaw`, `Bus`, `Truck`, `Bike`, `Mini-truck`, `People`, `Car`, `CNG`, and `Cycle`.
 The original annotations were provided in **Pascal VOC XML** format and were converted to the YOLO annotation format for model training.
+
 **Dataset Link:**
 https://data.mendeley.com/datasets/h8bfgtdp2r/4
 
@@ -67,6 +69,7 @@ The project therefore investigates whether automatically generated labels can pr
 This project explored:
 1. **SimCLR**
 2. **DINO-style teacher–student learning**
+
 These experiments were intended to investigate whether representation learning without relying entirely on manual labels could provide useful features for downstream object detection.
 
 ## SimCLR
