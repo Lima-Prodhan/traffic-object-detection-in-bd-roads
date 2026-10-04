@@ -1,10 +1,9 @@
-# Traffic Object Detection in Bangladeshi Roads Evaluating of Supervised, Semi-Supervised,
-# and Self-Supervised Learning
+# Traffic Object Detection in Bangladeshi Roads Evaluating of Supervised, Semi-Supervised and Self-Supervised Learning
 
 A Machine Learning project followed by **supervised, semi-supervised and self-supervised learning using YOLO-based detectors**.
 This project explores how object-detection models perform on complex Bangladeshi traffic scenes and whether unlabeled images can help reduce dependence on manual bounding-box annotations.
 
-## Overview
+## Project Overview
 
 Traffic scenes in Bangladesh contain visually diverse road users including rickshaws, buses, trucks, motorcycles, CNGs, cycles, cars, and pedestrians. Detecting these objects reliably is useful for computer-vision research but fully labeling large traffic datasets is expensive. In this project, we investigate the effectiveness of semi-supervised and selfsupervised learning strategies for improving object detection performance under limited annotation settings on the Bangladeshi Traffic Flow Dataset.
 
@@ -98,45 +97,16 @@ The original experiments produced multiple sets of metrics across the supervised
 
 ---
 
-# Repository Structure
-
-```text
-traffic-object-detection-github/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── notebooks/
-│   ├── yolov10-cse475 (final).ipynb
-│   ├── yolov11-cse475 (final).ipynb
-│   ├── yolov12-cse475 [final].ipynb
-│   ├── pseudo-labeling-in-yolov12-cse475 (final).ipynb
-│   ├── simclr-with-yolov12-cse475 (final).ipynb
-│   └── ssl-dino-with-yolov12 (final).ipynb
-│
-└── docs/
-    └── RESULTS_AND_REPRODUCIBILITY.md
-```
----
-
 # The Notebook's Links
 
 The notebooks were developed around a **Kaggle GPU environment**.
-Several notebooks use Kaggle-specific paths such as:
-
-```text
-/kaggle/input/...
-/kaggle/working/...
-```
-
-Therefore, they are not guaranteed to run unchanged on a local machine.
-YOLOv10:
-YOLOv11:
-YOLOv12:
-Pseudo-labeling:
-SimCLR + YOLOv12s:
-DINO-style + YOLOv12s:
+Several notebooks use Kaggle-specific paths. Therefore, they are not guaranteed to run unchanged on a local machine.
+YOLOv10: https://www.kaggle.com/code/rejaulkarimsohag/final-yolov10-cse475 
+YOLOv11: https://www.kaggle.com/code/mdesrafilrahman/cse475-assignment01-group-no-i-yolo11 
+YOLOv12: https://www.kaggle.com/code/limaprodhan/final-traffic-yolov12-cse475 
+Pseudo-labeling: https://www.kaggle.com/code/esrafilrahman/cse475-pseudo-labeling-in-yolov12 
+SimCLR + YOLOv12s: https://www.kaggle.com/code/mdesrafilrahman/cse475-simclr-with-yolo12 
+DINO-style + YOLOv12s: https://www.kaggle.com/code/limaprodhan/ssl-dino-with-yolov12s 
 
 ---
 
